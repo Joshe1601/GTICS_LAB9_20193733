@@ -94,7 +94,7 @@ public class ApiRestController {
         return ResponseEntity.status(HttpStatus.CREATED).body(response);
     }
 
-/*    @ExceptionHandler(HttpMessageConversionException.class)
+    @ExceptionHandler(HttpMessageConversionException.class)
     public ResponseEntity<HashMap<String, String>> handleException(HttpServletRequest request) {
         HashMap<String, String> response = new HashMap<>();
 
@@ -104,7 +104,7 @@ public class ApiRestController {
         }
 
         return ResponseEntity.badRequest().body(response);
-    }*/
+    }
 
 
 }
